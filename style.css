@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#h_one{
+    padding-top:10%;
+    color: rgb(245, 240, 240);
+}
+
+#up{
+ 
+    background-image: url("бее.jpg");
+ width: 100%;
+ height:100%;
+ background-position: center;
+ background-size: cover;
+    /*  background-image: url("бее.jpg");фон картинкой
+ width: 100%; ширина 100%
+ height:100%; высота 100%
+ background-position: center;позиционирование фона по центру
+ background-size: cover;маштабирование фона
+ */
+}
+body{
+    font-size: 160%;
+    background-color:rgba(57, 88, 134, 0.288);
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    /* */
+}
+#rew{
+    align-content: center;
+     /*
+     align-content: center;-выравнивание линии в перпендикуляр
+     */
+}
+#frame{
+    align-content: center;
+     height: 50%;
+    width: 30%;
+ /*align-content: center;-выравнивание линии в перпендикуляр
+ */
+}
+
+#ter{
+    text-align: center;
+     /**/
+}
+#zaza{
+    padding: 1%;
+    margin: 1%;
+     /* отступы 
+     внутренний 
+     внешний*/
+}
+
+   
+#List1{
+text-align: center;
+margin-left: 30%;
+ /* текст по центру
+ отступы слева*/
+}
+
+#Main{
+    margin-left: 13%;
+    margin-right: 13%; 
+  /*yui-главная
+  отступы-справо-слево
+  */  
+}
+
+#step7{
+    font-size: 210%;
+     /*размер шрифта*/
+}
+#step5{
+    text-align: left;
+     /* mn-бесплатные книги
+     text-align: left-текст слева*/
+}
+#reference{
+    background-color: rgba(132, 223, 159, 0.295);
+    margin: 3%;
+    margin-right: 8%;
+    margin-left: 13%;
+    border-radius: 20px;
+     /*справка-компиляр это...
+     background-color: rgba(132, 223, 159, 0.295);-цвет фона
+    margin: 3%;-внешний отступ
+    margin-right: 8%;с отступ справо
+    margin-left: 13%;отступ слево
+    border-radius: 20px;скругленные страницы
+    */
+}
+#clip{
+    height: 5%;
+    width: 5%;
+     /* высота 5%
+     ширина5%*/
+}
+#programming{
+    background-color: rgba(87, 226, 129, 0.363);
+    margin-right: 13%;
+    margin-left: 5%;
+     /*background-color: rgba(87, 226, 129, 0.363);
+    margin-right: 13%;
+    margin-left: 5%;
+    */
+}
+#h2{
+  margin-right: 53%;
+
+}
+#FreePascal{
+    background-image: url(798.jpg);
+    height: 76%;
+    width: 72%;
+    margin-left: 10%;
+     /*background-image: url(798.jpg); фон картинкой
+    height: 76%;
+    width: 72%;
+    margin-left: 10%;
+    */
+}
+
+#iii{
+    border-radius: 50px;
+    background: none;
+    border: none;  
+     /*border-radius: 50px;скругленные страницы
+    background: none; фон нет 
+    border: none; границы нет
+    */
+}
+#button{
+    margin-left: 8%;
+    margin-right: 8%;
+
+} 
+#step1{
+    margin-left: 15%;
+}
+@media screen and (max-width:900px)
+body{
+   .line{
+       font-size:10px;
+       img{
+           width:500px ;
+           height:500px ;
+       }
+   }
+}
