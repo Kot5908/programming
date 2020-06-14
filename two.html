@@ -16,6 +16,16 @@
      <h1>
   Второй шаг. Выбор первого языка 
 </h1> 
+<details id="contents">  <summary>   Оглавление:      </summary>  
+  <l>
+      <li> <a href=" one.html ">Шаг первый. Подготовка</a>  </li>
+      <li><a href="two.html"> Шаг второй. Выбор первого языка</a></li>
+      <li></li><a href="three.html">Шаг третий. Изучение компиляторов</a></li>
+      <li> <a href="four.html"> Шаг четвертый. Первый код </a></li>
+      <li><a href="five.html"> Шаг пятый. Изучите книги </a></li>
+      <li><a href="six.html">Шаг шестой. Найдите учителя </a></li>
+      <li><a href="seven.html">Шаг седьмой. Анализируйте чужую работу</a></li>
+  </l></details> 
     <div id="programming">
 
            <h2 id="h2">
@@ -44,10 +54,23 @@
   Ниже представлена первая десятка данного рейтинга.   
 </p>
 <div   >
-<img id="rew" src="2019.jpg" alt="что-то пошло не так" onclick="img()"> 
+  <img onmouseover="ChangeOver(this)" onmouseout="ChangeOut(this)" name="pic" src="2020.png" alt="Ошибка" width="70%" height="80%">
+
+  <script>
+  function ChangeOver(x) {
+   x.src= 'statistics.png';
+  };
+   
+  function ChangeOut(x) {   
+   x.src= '2020.png';
+  }
+  </script>
+   
+
 </div>
 <p> 
-Вообще, С – это один из самых простых языков, который дает основу всему остальному. Более того, его элементы используются во многих других системах и программах. 
+Вообще, С – это один из самых простых языков, который дает основу всему остальному. Более того,
+ его элементы используются во многих других системах и программах. 
 
 </p> 
 <p> 
@@ -56,7 +79,8 @@ Mожно изучать все, что угодно, в зависимости 
 </p> 
 <ul> 
 <li> 
-Веб (разработка сайтов, онлайн систем и все, что с этим связано) – html (хотя его нельзя назвать полноценным языком программирования), PHP, Perl, Python, Ruby, Java, Groovy, а также технология ASP.NET. 
+Веб (разработка сайтов, онлайн систем и все, что с этим связано) – html (хотя его нельзя назвать полноценным языком программирования),
+ PHP, Perl, Python, Ruby, Java, Groovy, а также технология ASP.NET. 
 
 </li> 
 <li> 
@@ -92,10 +116,6 @@ Mожно изучать все, что угодно, в зависимости 
 <a href="index.html">Главная...</a>
 </body> 
 </html>
-<script>
-function img() {
-rew.src="https://itvdn.blob.core.windows.net/cbs-images/cbs-images-9c8d0910-60b6-40af-9e82-c4649dc6f9c8.jpg"
-}
-</script>
+
 </body>
 </html>
